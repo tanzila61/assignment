@@ -18,10 +18,10 @@ nav{
     color: aliceblue;
     border: none;
     background-color: rgb(28, 28, 190);
-    padding: 10px 20px;
     box-shadow: 0 4px 8px ;
-    size: 20px;
-    margin: 50px;
+    padding:10px 20px;
+    size:20px;
+    margin:50px;
 
 
 }
@@ -38,11 +38,13 @@ nav{
 .new-button{
     background-color: rgb(41, 41, 223);
     margin-top: 5px;
-    padding: 10px 20px;
     color: aliceblue;
     cursor: pointer;
     border-radius: 10px;
     border: none;
+}
+.new-button:hover{
+    background-color: chocolate;
 }
 .header-section{
     background-image: url("../Assets/bg.png");
@@ -68,6 +70,9 @@ color: white;
 padding: 10px 20px;
 border: none;
 border-radius: 10px;
+}
+.preview-button:hover{
+    background-color: chocolate;
 }
 .txt-box{
     margin: 50px;
@@ -114,12 +119,13 @@ box-shadow: 0px 8px 50px 10px white;
 .skill img{
     
         border-radius: 50%}
-        .ready{
-            box-shadow: 0px 10px 100px 30px rgb(218, 215, 215);
-            text-align: center;
-            margin: 0 auto;
-            background-color: white;
-        }
+     .ready {
+  background-color:lightgray;
+  box-shadow: 0px 10px 100px 30px rgb(218, 215, 215);
+  text-align: center;
+  margin: 0 auto;
+  padding: 60px 20px 120px 20px; 
+}
         .click{
             background-color: rgb(7, 7, 124);
             color: white;
@@ -127,8 +133,11 @@ box-shadow: 0px 8px 50px 10px white;
             padding:5px;
             border-radius: 5px;
         }
+        .click:hover{
+            background-color: coral;
+        }
         .gap{
-            color: white;
+            color: rgb(242, 242, 252)
             padding: 10px;
         }
         .msg-size{
@@ -142,6 +151,12 @@ box-shadow: 0px 8px 50px 10px white;
             gap: 40px;
             
         }
+        .last{
+            padding: 80px 20px 120px 20px;
+            margin: 0 auto;
+            max-width: 1000px;
+
+        }
         .body {
   width: 100%;
   max-width: 500px;
@@ -150,7 +165,7 @@ box-shadow: 0px 8px 50px 10px white;
   flex-direction: column;
 }
 
-/* Remove any spacing between label and input */
+
 .body label {
   font-size: 15px;
   margin: 0;
@@ -166,7 +181,7 @@ box-shadow: 0px 8px 50px 10px white;
   border-radius: 5px;
   border: 1px solid #ccc;
   box-sizing: border-box;
-  margin: 0 0 10px 0;  /* Only gap BELOW */
+  margin: 0 0 10px 0;  
 }
 
 /* Textarea box */
@@ -184,12 +199,12 @@ box-shadow: 0px 8px 50px 10px white;
   resize: vertical;
   box-sizing: border-box;
   min-height: 120px;
-  margin: 0 0 10px 0; /* Only gap below */
+  margin: 0 0 10px 0; 
 }
 
 /* Button styling */
 .new-button {
-  width: 100%;
+  width: 20%;
   padding: 12px;
   font-size: 16px;
   background-color: #007bff;
@@ -244,4 +259,27 @@ body {
     main{
         background-color: rgb(240, 241, 241);
     }
-    
+.lastly {
+  background-color: #e9eef8;      
+  padding: 60px 20px 100px;      
+  box-sizing: border-box;
+}
+
+.lastly > .body {
+  max-width: 600px;              
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.lastly h1, .lastly h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.lastly button.new-button {
+  width: 100%;
+  max-width: 300px;
+  margin: 20px auto 0;
+}
