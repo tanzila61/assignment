@@ -1,0 +1,234 @@
+main{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    font-size: x-large;
+    font-weight: bolder;
+    color: rgb(23, 23, 173);
+    margin: 50px;
+}
+.signup{
+    font-weight: 500;
+    color: aliceblue;
+    border: none;
+    background-color: rgb(28, 28, 190);
+    padding: 10px 20px;
+    box-shadow: 0 4px 8px ;
+    size: 20px;
+    margin: 50px;
+
+
+}
+.signup:hover{
+    background-color: rgb(209, 134, 35);
+}
+.heading{
+    font-size: x-large;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.new-button{
+    background-color: rgb(41, 41, 223);
+    margin-top: 5px;
+    padding: 10px 20px;
+    color: aliceblue;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+}
+.header-section{
+    background-image: url("../Assets/bg.png");
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
+.action-section{
+    display: flex;
+    justify-content: space-between;
+}
+.image-box img{
+    max-width: 400px;
+    width: 100%;
+    margin: 50px;
+    border-radius: 15px;
+}
+.preview-button{
+    background-color: rgb(57, 57, 209);
+    cursor: pointer;
+color: white;
+padding: 10px 20px;
+border: none;
+border-radius: 10px;
+}
+.txt-box{
+    margin: 50px;
+}
+.text{
+    color: darkgray;
+}
+.user-items{
+    display: flex;
+    justify-content: space-around;
+}
+.another-section{
+    background-color: rgb(207, 233, 241);
+    border-radius: 10px;
+    text-align: center;
+    padding:30px;
+    margin: 10px;
+}
+.skills-container{
+    display: flex;
+    gap: 10px;
+}
+.skill{
+    padding: 50px;
+box-shadow: 0px 8px 50px 0px whitesmoke;
+
+}
+.section-title{
+    text-align: center;
+    margin-top: 100px;
+}
+.skill img{
+    
+        border-radius: 50%}
+        .ready{
+            box-shadow: 0px 10px 100px 0px whitesmoke;
+            text-align: center;
+            margin: 0 auto;
+        }
+        .click{
+            background-color: rgb(7, 7, 124);
+            color: white;
+            border: none;
+            padding:5px;
+            border-radius: 5px;
+        }
+        .gap{
+            color: white;
+            padding: 10px;
+        }
+        .msg-size{
+            width: 100%;
+            height: 150px;
+            resize: vertical;
+        }
+        .lastly{
+            display: flex;
+            justify-content: space-between;
+            gap: 40px;
+            
+        }
+        .body {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Remove any spacing between label and input */
+.body label {
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+/* Input styling */
+.body input {
+  width: 100%;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin: 0 0 10px 0;  /* Only gap BELOW */
+}
+
+/* Textarea box */
+.msg-size {
+  margin: 0;
+  padding: 0;
+}
+
+.msg-size textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  resize: vertical;
+  box-sizing: border-box;
+  min-height: 120px;
+  margin: 0 0 10px 0; /* Only gap below */
+}
+
+/* Button styling */
+.new-button {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #fff;
+    }
+
+    footer {
+      text-align: center;
+      padding: 40px 20px;
+      background-color: #fff;
+      color: #777;
+    }
+
+    .logo {
+      font-size: 3rem;
+      font-weight: bold;
+      color: #4c4cff;
+      margin-bottom: 20px;
+    }
+
+    .description {
+      font-size: 1rem;
+      max-width: 600px;
+      margin: 0 auto 30px auto;
+      line-height: 1.6;
+    }
+
+    .footer-nav {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      font-size: 1rem;
+    }
+
+    .footer-nav a {
+      color: #777;
+      text-decoration: none;
+    }
+
+    .footer-nav a:hover {
+      color: #4c4cff;
+    }
+    main{
+        background-color: rgb(240, 241, 241);
+    }
+    
