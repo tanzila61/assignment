@@ -78,13 +78,25 @@ border-radius: 10px;
 .user-items{
     display: flex;
     justify-content: space-around;
+    max-width: 800px;
+    margin:0 auto;
+}
+.item-title{
+    color: #3e3ed1;
+    font-size: x-large;
+    font-weight: bolder;
+}
+.item-description{
+    color: #686666;
 }
 .another-section{
-    background-color: rgb(207, 233, 241);
-    border-radius: 10px;
+    background-color: lightgray;
+    border-radius: 16px;
     text-align: center;
-    padding:30px;
-    margin: 10px;
+    padding:40px 20px;
+    margin:60px auto;
+    max-width: 1000px;
+    width: 80%;
 }
 .skills-container{
     display: flex;
@@ -92,7 +104,7 @@ border-radius: 10px;
 }
 .skill{
     padding: 50px;
-box-shadow: 0px 8px 50px 0px whitesmoke;
+box-shadow: 0px 8px 50px 10px white;
 
 }
 .section-title{
@@ -103,9 +115,10 @@ box-shadow: 0px 8px 50px 0px whitesmoke;
     
         border-radius: 50%}
         .ready{
-            box-shadow: 0px 10px 100px 0px whitesmoke;
+            box-shadow: 0px 10px 100px 30px rgb(218, 215, 215);
             text-align: center;
             margin: 0 auto;
+            background-color: white;
         }
         .click{
             background-color: rgb(7, 7, 124);
